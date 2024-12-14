@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from .sms import (
+from .sms.sms import (
     SMSResource,
     AsyncSMSResource,
     SMSResourceWithRawResponse,
@@ -10,7 +10,6 @@ from .sms import (
     SMSResourceWithStreamingResponse,
     AsyncSMSResourceWithStreamingResponse,
 )
-from .sms.sms import SMSResource, AsyncSMSResource
 from ..._compat import cached_property
 from ..._resource import SyncAPIResource, AsyncAPIResource
 
